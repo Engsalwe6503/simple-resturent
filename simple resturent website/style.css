@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times,
+    font-size:19px;
+    
+}
+
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(food2.jpg);
+    height:100vh;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    color:#fff;
+    width:100%;
+    height:100%;
+    font-size:20px;
+    padding-left:20px;
+    padding-top:20px;
+}
+
+.tittle{
+    color:#fff;
+    font-weight:lighter;
+    font-size:40px;
+
+}
+
+span{
+    color:chocolate;
+}
+
+p{
+    padding-left:5px;
+}
+
+ul{
+    display:flex;
+}
+
+ul li{
+    list-style:0;
+
+}
+
+ul li a{
+    text-decoration:none;
+    margin:30px;
+    color:#fff;
+    font-size:20px;
+    font-weight: 500;
+    transition:all 0.7s ease;
+}
+
+ul li a:hover{
+    background-color: chocolate;
+    border:1px solid chocolate;
+    border-radius:6px;
+
+}
+
+.a{
+    color:#fff;
+    background-color:crimson;
+    border:1px solid chocolate;
+    border-radius:5px;
+    padding:5px;
+    transition:all 0.3s ease;
+    
+
+}
+
+.a:hover{
+    background-color: chocolate;
+    border:1px solid chocolate;
+    border-radius:6px;
+}
+
+/* section part  */
+
+.section{
+    width:670px;
+    height:500px;
+    
+}
+
+
+
+.section h1{
+    color:#fff;
+    font-size:40px;
+    margin-top:100px;
+    padding-left:40px;
+    font-weight:600;
+    
+}
+
+.section p{
+    color:#fff;
+    padding-left:40px;
+    padding-bottom:15px;
+    padding-top:10px;
+    font-size:19px;
+    font-weight: lighter;
+}
+
+.btn{
+    margin-left:50px;
+    background: crimson;
+     border-radius:5px;
+     padding:7px;
+}
+
+.btn:hover{
+    background-color: chocolate;
+    border:1px solid chocolate;
+    border-radius:6px;
+
+}
+
+.form{
+    width:70vh;
+    height:20px;
+    display:flex;
+    
+}
+.form input{
+    width:100%;
+    height:100%;
+    a
+}
+
+input{
+   display:inline-block;
+   
+
+}
